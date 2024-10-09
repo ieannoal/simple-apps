@@ -1,0 +1,11 @@
+sevices:
+  simple-app:
+    image: ieannoal/simple-apps
+    build: ./apps
+    port:
+      -3000:3000
+    volumes:
+      -vol-simple-apps:/apps/public
+
+volumes:
+  vol-simple-apps:
