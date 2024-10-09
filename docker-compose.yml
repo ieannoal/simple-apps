@@ -1,4 +1,4 @@
-sevices:
+services:
   simple-app:
     image: ieannoal/simple-apps
     build: ./apps
