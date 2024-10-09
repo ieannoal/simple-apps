@@ -3,9 +3,9 @@ sevices:
     image: ieannoal/simple-apps
     build: ./apps
     ports:
-      -3000:3000
+      - 3000:3000
     volumes:
-      -vol-simple-apps:/apps/public
+      - vol-simple-apps:/apps/public
 
 volumes:
   vol-simple-apps:
